@@ -1,11 +1,10 @@
 import { useState } from "react";
 import "./ExpenseForm.css";
 
-const ExpenseForm = ({ onSaveExpenseData }) => {
+const ExpenseForm = ({ onSaveExpenseData, onStopEditing }) => {
   const [enteredTitle, setEnteredTitle] = useState("");
   const [enteredAmount, setEnteredAmount] = useState("");
   const [enteredDate, setEnteredDate] = useState("");
-  const [showForm, setShowForm] = useState(false);
   // const [userInput, setUserInput] = useState({
   //   enteredTitle: "",
   //   enteredAmount: "",
@@ -29,30 +28,22 @@ const ExpenseForm = ({ onSaveExpenseData }) => {
     //   return { ...prevState, enteredDate: event.target.value };
     // });
   };
-  const showFormHandler = () => {
-    setShowForm(true);
-  };
-  const hideFormHandler = (event) => {
-    setShowForm(false);
-  };
+
   const submitHandler = (event) => {
     event.preventDefault();
     const expenseData = {
       title: enteredTitle,
-      amount: enteredAmount,
+      amount: +enteredAmount,
       date: new Date(enteredDate),
     };
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
     onSaveExpenseData(expenseData);
-    hideFormHandler();
+    onStopEditing();
   };
-  if (!showForm) {
-    return <button onClick={showFormHandler}>Add Expense</button>;
-  }
   return (
-    <form onSubmit={submitHandler} onReset={hideFormHandler}>
+    <form onSubmit={submitHandler} onReset={onStopEditing}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>
