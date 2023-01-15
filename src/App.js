@@ -42,7 +42,6 @@ const App = () => {
     setExpenses((prevState) => {
       return [...prevState, expense];
     });
-    console.log(expense, 22222);
   };
 
   return (
