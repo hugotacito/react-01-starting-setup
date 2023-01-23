@@ -30,4 +30,8 @@
 
 ## project 08
 
-### Introduction to Behind the Scene of React, react memo e useCallback
+### Introduction to React Memo, useMemo and useCallback
+
+## project 09
+
+### Introduction to Class Based Components and Error Boundaries
