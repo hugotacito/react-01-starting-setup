@@ -67,3 +67,7 @@
 ## project 17
 
 ### Advanced usage of Redux
+
+## project 18
+
+### Basic Usage of Multi-Page SPA with React Router
