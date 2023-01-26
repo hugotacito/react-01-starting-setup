@@ -62,4 +62,8 @@
 
 ## project 16
 
-### Using Redux on Auth Project
+### Basic Usage of Redux and Redux Toolkit
+
+## project 17
+
+### Advanced usage of Redux
