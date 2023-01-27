@@ -66,7 +66,7 @@
 
 ## project 17
 
-### Advanced usage of Redux
+### Advanced Usage of Redux
 
 ## project 18
 
@@ -74,4 +74,13 @@
 
 ## project 19
 
-### Advanced usage of React Router on Data Fetching
+### Advanced Usage of React Router on Data Fetching
+
+## project 20
+
+### Basic Usage of Authentication
+
+## project 21
+
+### Advanced Usage of Authentication with Tokens
+
