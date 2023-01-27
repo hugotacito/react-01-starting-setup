@@ -1,26 +1,32 @@
-import { Switch, Route } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Layout from './components/Layout/Layout';
-import UserProfile from './components/Profile/UserProfile';
-import AuthPage from './pages/AuthPage';
-import HomePage from './pages/HomePage';
+import BlogPage, { loader as postsLoader } from './pages/Blog';
+import HomePage from './pages/Home';
+import PostPage, { loader as postLoader } from './pages/Post';
+import RootLayout from './pages/Root';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+      {
+        path: 'posts',
+        children: [
+          { index: true, element: <BlogPage />, loader: postsLoader },
+          { path: ':id', element: <PostPage />, loader: postLoader },
+        ],
+      },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <Layout>
-      <Switch>
-        <Route path='/' exact>
-          <HomePage />
-        </Route>
-        <Route path='/auth'>
-          <AuthPage />
-        </Route>
-        <Route path='/profile'>
-          <UserProfile />
-        </Route>
-      </Switch>
-    </Layout>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

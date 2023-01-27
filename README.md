@@ -82,5 +82,4 @@
 
 ## project 21
 
-### Advanced Usage of Authentication with Tokens
-
+### How to Deploy React Applications
