@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"New Event","image":"https://deviniti.com/app/uploads/2021/10/09-20_DM-8186_EVENTS_01_MAIN-2-1024x682.png","date":"2023-01-26","description":"New event will arrive","id":"976ec9f1-71d7-4805-83be-d9a13892ce2d"}],"users":[{"email":"test@test.com","password":"$2a$12$qs2Bvz3aQOr.naErnDXGauCgg.W6SKur7eY32gLhTkNRsxXG115Ba","id":"cfa85b96-2ab7-4ebc-87f2-a642feeb955d"},{"email":"test2@test.com","password":"$2a$12$7oMcSQhnjp59oUorzmsZCu/hxzmObljyRgSXehKrD8d4dXBdgA8Gu","id":"ab7600aa-b7d2-435d-975c-5677b0062209"}]}
