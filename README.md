@@ -82,4 +82,12 @@
 
 ## project 21
 
-### How to Deploy React Applications
+### Basic Usage of Lazy Loading
+
+## project 22
+
+### Basic Usage of React with NextJS
+
+## project 23
+
+### Advanced Usage of React with NextJS
