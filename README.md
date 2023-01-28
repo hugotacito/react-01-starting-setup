@@ -95,17 +95,3 @@
 ## project 24
 
 ### Advanced Usage of React with Animations
-
-#### animations 01 - start
-
-#### animations 02 - modal animations
-
-#### animations 03 - css animations
-
-#### animations 04 - basic react transitions
-
-#### animations 05 - after animations events
-
-#### animations 06 - css transitions
-
-#### animations 07 - finished
