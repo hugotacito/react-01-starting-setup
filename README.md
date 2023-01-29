@@ -95,3 +95,11 @@
 ## project 24
 
 ### Advanced Usage of React with Animations
+
+## project 25
+
+### Replacing Redux with Custom Global Hooks
+
+## project 26
+
+### Advances Usage of Custom Global Hooks
