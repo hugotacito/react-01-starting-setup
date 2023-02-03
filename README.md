@@ -104,10 +104,14 @@
 
 ### Advances Usage of Custom Global Hooks
 
-## project 28
+## project 27
 
 ### Basic Testing using Jest
 
+## project 28
+
+### Basic Typescript
+
 ## project 29
 
-### Basic Typescript in React
+### Typescript in React
